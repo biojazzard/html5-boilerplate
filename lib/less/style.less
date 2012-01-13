@@ -1,0 +1,173 @@
+/* 
+ * Style.less | Main Web Style
+ */
+
+/* Body and structure
+-------------------------------------------------- */
+body {
+  background-color: #fff;
+  position: relative;
+}
+section {
+  padding-top: 60px;
+}
+section > .row {
+  margin-bottom: 10px;
+}
+
+/* floats
+-------------------------------------------------- */
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/* aligns
+-------------------------------------------------- */
+.tl {
+	text-align: left;
+}
+
+.tr {
+	text-align: right;
+}
+
+.mh {
+	height: 400px;
+}
+
+/* Top-Banner
+-------------------------------------------------- */
+.top-banner {
+	min-width: 940px;
+	padding-top: 40px;
+	.lead {
+		font-size: 20px;
+		line-height: 27px;
+	}
+	h1, p {
+		margin-bottom: 9px;
+		color: #fff;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	}
+	h1 {
+		font-size: 36px;
+		line-height: 1;
+		text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	}
+	p {
+		font-weight: 300;
+		a {
+			color: #fff;
+			font-weight: bold;
+		}
+	}
+}
+
+.locale-holder {
+	height: 420px;
+}
+
+/* Social - Redes Sociales
+-------------------------------------------------- */
+
+#redes-holder {
+	height: 420px;
+}
+
+ul#pipes_rss {
+	display: block;
+	list-style-type: none;
+}
+
+.micn {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.micn_twitter {
+	background: url(../img/ico/icons_16.png) 0px 0px no-repeat;
+}
+
+.micn_facebook {
+	background: url(../img/ico/icons_16.png) -16px 0px no-repeat;
+}
+
+.micn_issuu {
+	background: url(../img/ico/icons_16.png) -32px 0px no-repeat;
+}
+
+.micn_rss {
+	background: url(../img/ico/icons_16.png) -48px 0px no-repeat;
+}
+
+.micn_youtube {
+	background: url(../img/ico/icons_16.png) -64px 0px no-repeat;
+}
+
+.micn_flickr {
+	background: url(../img/ico/icons_16.png) -80px 0px no-repeat;
+}
+
+.micn_blogger {
+	background: url(../img/ico/icons_16.png) -96px 0px no-repeat;
+}
+
+.micn_email {
+	background: url(../img/ico/icons_16.png) -112px 0px no-repeat;
+}
+
+/* FORM
+-------------------------------------------------- */
+
+#formsended {
+	display: none;
+}
+
+#sending {
+	display: none;
+}
+
+#validation_err {
+	display: none;
+}
+
+/* Player UI
+-------------------------------------------------- */
+
+ul.chromeplayer {
+	margin: 0;
+	padding: 0;
+	li {
+		margin-top: 0px;
+		margin-right: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+}
+
+#videoControls {
+	color: #ABABAB;
+	font-size: 11px;
+}
+
+/* LESS Import
+-------------------------------------------------- */
+
+@import "color.less";
+@import "nanoscroller.less";
