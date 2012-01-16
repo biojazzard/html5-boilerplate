@@ -19,6 +19,10 @@ git add .
 
 git commit . -m "Mi tercer update"
 
+* El modificador -a hace que no tengas que hacer "git add" cada vez antes de hacer "comit"
+
+git commit . -a -m "Mi tercer update"
+
 ## 4 PUSH - Subir
 
 * 
